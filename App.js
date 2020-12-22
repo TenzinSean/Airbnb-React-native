@@ -16,6 +16,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import HomeScreen from "./src/screens/Home";
 
 
 
@@ -24,7 +25,7 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Text>Airbnb</Text>
+        <HomeScreen />
       </SafeAreaView>
     </>
   );
