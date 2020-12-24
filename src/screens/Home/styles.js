@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
         padding: 0,
     },
     title: {
-        fontSize: 70,
+        fontSize: 80,
         fontWeight: "bold",
         color: "white",
         width: "70%",
@@ -25,16 +25,18 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
     },
+    
     buttonText: {
         fontSize: 16,
         fontWeight: "bold",
     },
+
     searchButton: {
         backgroundColor: "#fff",
-        width: Dimensions.get("screen").width - 20,
         height: 60,
+        width: Dimensions.get("screen").width - 20,
         borderRadius: 30,
-        marginHorizontal: 10,
+        marginHorizontal:10,
         flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
@@ -42,6 +44,7 @@ const styles = StyleSheet.create({
         top: 20,
         zIndex: 100,
     },
+    
     searchButtonText: {
         fontSize: 16,
         fontWeight: "bold",

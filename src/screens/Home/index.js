@@ -24,7 +24,7 @@ const HomeScreen = (props) => {
                 style={styles.image}
             >
                <Text style={styles.title}>
-                   Airbnb
+                   Airbnb 
                </Text>
 
                <Pressable
