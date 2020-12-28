@@ -18,6 +18,8 @@ import {
 } from 'react-native';
 import HomeScreen from "./src/screens/Home";
 import SearchResultsPage from "./src/screens/SearchResults";
+import DestionationSearchScreen from "./src/screens/DestinationSearch";
+
 import Post from "./src/components/Post";
 
 import feed from "./assets/data/feed";
@@ -33,7 +35,8 @@ const App: () => React$Node = () => {
       <SafeAreaView>
         {/* <HomeScreen /> */}
         {/* <Post  post={post2}/> */}
-        <SearchResultsPage />
+        {/* <SearchResultsPage /> */}
+        <DestionationSearchScreen />
       </SafeAreaView>
     </>
   );
