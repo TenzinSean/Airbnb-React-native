@@ -16,9 +16,12 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+
+
 import HomeScreen from "./src/screens/Home";
 import SearchResultsPage from "./src/screens/SearchResults";
 import DestionationSearchScreen from "./src/screens/DestinationSearch";
+import GuestsScreen from "./src/screens/Guests";
 
 import Post from "./src/components/Post";
 
@@ -36,7 +39,8 @@ const App: () => React$Node = () => {
         {/* <HomeScreen /> */}
         {/* <Post  post={post2}/> */}
         {/* <SearchResultsPage /> */}
-        <DestionationSearchScreen />
+        {/* <DestionationSearchScreen /> */}
+        <GuestsScreen />
       </SafeAreaView>
     </>
   );

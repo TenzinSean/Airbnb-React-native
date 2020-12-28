@@ -36,7 +36,6 @@ const DestinationSearch = (props) => {
                     </View>
                 )}
            />
-
         </View>
     );
 };
