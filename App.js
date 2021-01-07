@@ -36,7 +36,7 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        {/* <HomeScreen /> */}
+         <HomeScreen /> 
         {/* <Post  post={post2}/> */}
         {/* <SearchResultsPage /> */}
         {/* <DestionationSearchScreen /> */}
