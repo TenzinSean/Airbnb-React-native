@@ -26,6 +26,7 @@ import GuestsScreen from "./src/screens/Guests";
 import Post from "./src/components/Post";
 
 import feed from "./assets/data/feed";
+import Router from './src/navigation/Router';
 
 const post1 = feed[0];
 const post2 = feed[1];
@@ -35,13 +36,14 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-         <HomeScreen /> 
+      <Router />
+      {/* <SafeAreaView> */}
+         {/* <HomeScreen />  */}
         {/* <Post  post={post2}/> */}
         {/* <SearchResultsPage /> */}
         {/* <DestionationSearchScreen /> */}
-        <GuestsScreen />
-      </SafeAreaView>
+        {/* <GuestsScreen />
+      </SafeAreaView> */}
     </>
   );
 };
